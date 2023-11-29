@@ -1,12 +1,12 @@
 {
   "private": true,
-  "author": "Terry Chua <terry.c@bidot.sg>",
+  "author": "Terry Chua <terrychua93@gmail.com>",
   "scripts": {
-    "build": "max build",
     "dev": "max dev",
+    "build": "max build",
     "format": "prettier --cache --write .",
-    "postinstall": "max setup",
     "prepare": "husky install",
+    "postinstall": "max setup",
     "setup": "max setup",
     "start": "npm run dev"
   },
